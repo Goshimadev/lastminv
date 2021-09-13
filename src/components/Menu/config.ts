@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Swap',
-        href: 'https://MiniVitalikofficial.site/swap/#/swap',
+        href: 'https://MiniVitalik.com/swap/#/swap',
       },
       {
         label: 'Liquidity',
