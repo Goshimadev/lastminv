@@ -86,11 +86,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Website',
-        href: 'https://wifeswapofficial.site/',
+        href: 'https://minivitalik.com/',
       },
       {
         label: 'Swap',
-        href: 'https://wifeswapofficial.site/swap/#/swap',
+        href: 'https://minivitalik.com/swap/#/swap',
       },
       {
         label: 'Pairs',
