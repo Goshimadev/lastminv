@@ -30,7 +30,7 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Waifu Stats')}
+          {TranslateString(534, 'VETH Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(536, 'Total Waifu Supply')}</Text>

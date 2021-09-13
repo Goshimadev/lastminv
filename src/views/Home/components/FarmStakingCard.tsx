@@ -61,11 +61,11 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="https://babylucyofficial.com/lll.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'Waifu to Harvest')}:</Label>
+          <Label>{TranslateString(544, 'VETH to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'Waifu in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'VETH in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -77,7 +77,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting Waifu')
+                ? TranslateString(548, 'Collecting VETH')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`, {
                     count: balancesWithValue.length,
                   })}

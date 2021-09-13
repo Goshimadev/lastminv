@@ -75,7 +75,7 @@ const LotteryCard = () => {
     if (!allowance.toNumber()) {
       return (
         <Button width="100%" disabled={requestedApproval} onClick={handleApprove}>
-          {TranslateString(494, 'Approve Waifu')}
+          {TranslateString(494, 'Approve VETH')}
         </Button>
       )
     }
@@ -97,9 +97,9 @@ const LotteryCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="https://babylucyofficial.com/lll.png" alt="Waifu logo" width={64} height={64} />
+        <CardImage src="https://babylucyofficial.com/lll.png" alt="VETH logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(552, 'Waifu to Collect')}:</Label>
+          <Label>{TranslateString(552, 'VETH to Collect')}:</Label>
           <CakeWinnings claimAmount={claimAmount} />
         </Block>
         <Block>

@@ -48,7 +48,7 @@ const HarvestAction: React.FunctionComponent<HarvestActionProps> = ({ pid, userD
   return (
     <ActionContainer>
       <ActionTitles>
-        <Title>Waifu </Title>
+        <Title>VETH </Title>
         <Subtle>{TranslateString(1072, 'EARNED')}</Subtle>
       </ActionTitles>
       <ActionContent>

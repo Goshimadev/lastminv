@@ -82,7 +82,7 @@ const PrizesWonContent: React.FC<PrizesWonContentProps> = ({ onSuccess }) => {
               {winnings}
             </Heading>
             <Heading as="h4" size="lg">
-              Waifu
+              VETH
             </Heading>
           </WinningsWrapper>
         </>

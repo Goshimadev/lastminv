@@ -49,8 +49,8 @@ const CollectModal: React.FC<CollectModalProps> = ({
   const [shouldCompound, setShouldCompound] = useState(isCompoundPool)
   const { targetRef, tooltip, tooltipVisible } = useTooltip(
     <>
-      <Box mb="12px">{TranslateString(999, 'Compound: collect and restake Waifu into pool.')}</Box>
-      <Box>{TranslateString(999, 'Harvest: collect Waifu and send to wallet')}</Box>
+      <Box mb="12px">{TranslateString(999, 'Compound: collect and restake VETH into pool.')}</Box>
+      <Box>{TranslateString(999, 'Harvest: collect VETH and send to wallet')}</Box>
     </>,
     'bottom-end',
     'hover',

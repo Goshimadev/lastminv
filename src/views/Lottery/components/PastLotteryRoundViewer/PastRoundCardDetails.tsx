@@ -54,7 +54,7 @@ const PastRoundCardDetails: React.FC<PastRoundCardDetailsProps> = ({ data }) => 
               {TranslateString(999, 'Winning numbers')}
             </TopLotteryCardHeading>
             <LotteryCardHeading
-              valueToDisplay={TranslateString(999, `${poolSize.toLocaleString()} Waifu`)}
+              valueToDisplay={TranslateString(999, `${poolSize.toLocaleString()} VETH`)}
               Icon={PancakeRoundIcon}
             >
               {TranslateString(999, 'Total prizes')}

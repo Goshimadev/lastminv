@@ -675,7 +675,7 @@ it("renders correctly", () => {
               </svg>
             </button>
             <a
-              aria-label="Waifu home page"
+              aria-label="VETH home page"
               class="c6"
               href="/"
             >
