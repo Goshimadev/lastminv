@@ -39,7 +39,7 @@ const Collectibles = () => {
       <Text as="p">
         {TranslateString(
           999,
-          'Waifu Collectibles are special ERC-721 NFTs that can be used on the Wifeswap platform.',
+          'Waifu Collectibles are special ERC-721 NFTs that can be used on the MiniVitalik platform.',
         )}
       </Text>
       <Text as="p">
