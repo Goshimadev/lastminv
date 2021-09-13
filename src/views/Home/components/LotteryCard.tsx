@@ -97,7 +97,7 @@ const LotteryCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="https://babylucyofficial.com/lll.png" alt="VETH logo" width={64} height={64} />
+        <CardImage src="https://minivitalik.com/veth.png" alt="VETH logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(552, 'VETH to Collect')}:</Label>
           <CakeWinnings claimAmount={claimAmount} />

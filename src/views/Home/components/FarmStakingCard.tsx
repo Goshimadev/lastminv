@@ -10,7 +10,7 @@ import CakeWalletBalance from './CakeWalletBalance'
 import { Heading, Card, CardBody, Button } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('https://babylucyofficial.com/lll.png');
+  background-image: url('https://minivitalik.com/veth.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
@@ -59,7 +59,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="https://babylucyofficial.com/lll.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="https://minivitalik.com/veth.png" alt="cake logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(544, 'VETH to Harvest')}:</Label>
           <CakeHarvestBalance />
