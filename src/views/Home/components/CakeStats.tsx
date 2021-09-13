@@ -33,15 +33,15 @@ const CakeStats = () => {
           {TranslateString(534, 'VETH Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total Waifu Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total VETH Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total Waifu Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total VETHned')}</Text>
           <CardValue fontSize="14px" decimals={0} value={burnedBalance} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New Waifu/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New VETH/block')}</Text>
           <CardValue fontSize="14px" decimals={0} value={22} />
         </Row>
       </CardBody>
