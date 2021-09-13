@@ -23,7 +23,7 @@ const StyledPage = styled(Container)`
 `
 
 const Background = styled.div`
-  background-image: url('/images/earth-mars.jpg');
+  background-image: url('https://i.imgur.com/Jqdnbis.png');
   background-repeat: no-repeat;
   background-position: cover;
   background-attachment: fixed;
