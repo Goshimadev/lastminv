@@ -5,7 +5,7 @@ import { LogoIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
 import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
 import MenuButton from "./MenuButton";
-import mobileLogo from '.https://minivitalik.com/veth.png';
+import mobileLogo from 'https://minivitalik.com/veth.png';
 import desktopLogo from 'https://minivitalik.com/veth.png';
 
 interface Props {
