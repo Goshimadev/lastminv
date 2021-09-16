@@ -27,11 +27,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://swap.apefinance.org",
+        href: "https://minivitalik.com/swap",
       },
       {
         label: "Liquidity",
-        href: "https://swap.apefinance.org/#/pool",
+        href: "https://minivitalik.com/#/pool",
       },
     ],
   },
@@ -129,11 +129,11 @@ export const links = [
       },
       {
         label: "Docs",
-        href: "https://docs.apefinance.org",
+        href: "https://docs.pancakeswap.finance",
       },
       {
         label: "Blog",
-        href: "https://apeinspace.medium.com",
+        href: "https://pancakeswap.finance",
       },
     ],
   },
@@ -146,14 +146,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/apefinanceorg",
+        href: "https://t.me/minivitalikofficial",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/apefinanceorg",
+    href: "https://twitter.com/minivitalik",
   },
 ];
 
