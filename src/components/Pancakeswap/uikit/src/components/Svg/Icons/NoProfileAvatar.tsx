@@ -9,7 +9,7 @@ const Icon: React.FC<SvgProps> = (props) => {
   const secondaryColor = theme.isDark ? "#666171" : "#bdc2c4";
 
   return (
-    <img src='./images/apes-round.png' alt="" width={92} height={92}/>
+    <img src='https://minivitalik.com/veth.png' alt="" width={92} height={92}/>
     // <Svg viewBox="0 0 32 32" {...props}>
     //   <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" fill={primaryColor} />
     //   <mask id="A" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
