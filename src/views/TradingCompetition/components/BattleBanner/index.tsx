@@ -49,7 +49,7 @@ const BattleBanner = () => {
       </StyledText>
       <StyledHeading1Text>{TranslateString(999, 'Easter Battle')}</StyledHeading1Text>
       <StyledHeading2Text background={GOLDGRADIENT} $fill>
-        {TranslateString(999, '$200,000 in Prizes!')}
+        {TranslateString(999, '$20,000 in Prizes!')}
       </StyledHeading2Text>
       <StyledHeading size="md" color="inputSecondary" mt="16px">
         {TranslateString(999, 'Compete with other teams to win VETH, collectible NFTs, achievements & more!')}

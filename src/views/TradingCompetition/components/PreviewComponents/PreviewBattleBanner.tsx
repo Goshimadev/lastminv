@@ -31,7 +31,7 @@ const BattleBanner = () => {
       </ImageWrapper>
       <StyledHeading1Text>{TranslateString(999, 'Easter Battle')}</StyledHeading1Text>
       <StyledHeading2Text background="linear-gradient(180deg, #FFD800 0%, #EB8C00 100%)" $fill>
-        {TranslateString(999, '$200,000 in Prizes!')}
+        {TranslateString(999, '$20,000 in Prizes!')}
       </StyledHeading2Text>
       <StyledHeading size="md" color="inputSecondary" mt="16px">
         {TranslateString(999, 'Registration starting october 5th')}
